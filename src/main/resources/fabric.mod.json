@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "ww2_modpack",
+  "version": "${version}",
+  "name": "WW2 Modpack",
+  "description": "A modpack that recreates the WW2 experience with vehicles, weapons, and structures.",
+  "authors": ["YourName"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.ww2modpack.WW2ModpackMod"
+    ]
+  },
+  "mixins": [
+    "ww2modpack.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "minecraft": "1.20.1",
+    "fabric-api": "*"
+  }
+}
